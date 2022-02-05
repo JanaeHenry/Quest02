@@ -1,9 +1,8 @@
-/*#include <stdio.h>
-
-int my_strlen(char* param_1)
-{
-
-}*/
+/*If you use for(int i=0; str[i];i++) this loop also runs as long 
+as the elements inside array of characters are true not '\0'. 
+Which you can count it until '\0. In the code below you can see the same thing with while
+ loop but when you return you should do -1 as when loop encounters '\0' it terminates but it also adds 1. 
+ If this confuses you, you can use same logic with for(length=0; ch[length];length++); then you don't have to do -1;*/
 
 
 #include <stdio.h>
